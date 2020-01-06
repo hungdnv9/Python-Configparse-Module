@@ -11,3 +11,11 @@ sectionB_host:  sectionb.com
 user1_home:  /home/Jano
 ```
 
+## Case 2: Write config to file
+```sh
+$ python write_config_to_file.py
+$ cat output_conf.ini 
+[SectionI]
+name = hung
+age = 23
+```
